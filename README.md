@@ -98,3 +98,8 @@ npm start
 ## Use
 
 You can now browse your kong dashboard at http://localhost:8080
+
+
+COMET LOGO
+
+    https://pixabay.com/en/fire-fireball-explosion-danger-307891/
