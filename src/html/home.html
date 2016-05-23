@@ -5,13 +5,19 @@
     </p>
     <p>&nbsp;</p>
     <div class="row">
-        <div class="col s6 home-block">
+        <div class="col s4 home-block">
             <div class="center">
                 <img src="images/comet-logo.png" width="200"/>
                 <h3>COMET</h3>
             </div>
         </div>
-        <div class="col s6 home-block">
+        <div class="col s4 home-block">
+            <div class="center">
+                <h5>Access logs</h5>
+                <p>Real time access logs are available in <strong>Kibana</strong>.</p>
+            </div>
+        </div>
+        <div class="col s4 home-block">
             <div class="center">
                 <h5>Learn Kong</h5>
                 <p>
@@ -25,11 +31,14 @@
         </div>
     </div>
     <div class="row">
-        <div class="col s6 center">
-            <ra href="https://getkong.org/plugins/" target="_blank" class="btn">Plugins Documentation</ra>
-        </div>
-        <div class="col s6 center">
+        <div class="col s4 center">
             <a href="#/apis/add" class="btn">Create API PROXY</a>
+        </div>
+        <div class="col s4 center">
+            <a href="http://kibana.hpa.aws.aol.com/#/discover/Kong-access-logs?_g=(refreshInterval:(display:Off,pause:!f,section:0,value:0),time:(from:now-1h,mode:quick,to:now))&_a=(columns:!(request,verb),filters:!((meta:(disabled:!f,index:%5Blogstash-%5DYYYY.MM.DD,key:elb,negate:!f,value:kong-cluster),query:(match:(elb:(query:kong-cluster,type:phrase))))),index:%5Blogstash-%5DYYYY.MM.DD,interval:auto,query:(query_string:(analyze_wildcard:!t,query:'*')),sort:!('@timestamp',desc))" target="_blank" class="btn">Kibana access logs</a>
+        </div>
+        <div class="col s4 center">
+            <a href="https://getkong.org/plugins/" target="_blank" class="btn">Plugins Documentation</a>
         </div>
     </div>
 </div>
